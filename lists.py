@@ -83,4 +83,22 @@ animals = ['sheep','goat', 'turkey']
 for animal in animals:
     print(f"A {animal} is a good farm animal.")
 print(f"All of these animals are farm animals.ashdsjdj")
+
+
+sqaures = []
+for value in range(1,11):
+    sqaures.append(value**2)
+print(sqaures)
+
+# Learning list comprehension
+sqaures = [value**2 for value in range(1,11)]
+print(sqaures)
+
+print120 = [value for value in range(1,21,2)]
+print(min(print120))
+print(max(print120))
+print(print120)
+
+cubed =[value**3 for value in range(1,11)]
+print(cubed)
 """
