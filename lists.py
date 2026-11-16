@@ -1,5 +1,5 @@
 # This is a file to help me better myself on lists
-list1 = ["Dad", "Alex Hormozi", "Mark Zuckerberg"]
+"""list1 = ["Dad", "Alex Hormozi", "Mark Zuckerberg"]
 
 print("I have found a bigger dinner table everyone!!")
 
@@ -65,3 +65,22 @@ get_list.append("Chocolate")
 print(f"I forgot that I also need to get chocolate. I'll add it to the top: \n{get_list}")
 length2 = len(get_list)
 print(f"The original length of my list was {length1} items long. Now it is {length2} items long.")
+"""
+
+# Working with loops
+"""
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+
+fav_pizzas = ['pepperoni', 'pepperoni and honey', 'meat lovers']
+
+for pizza in fav_pizzas:
+    print(f"I like {pizza} pizza.")
+print("Man I REALLY love pizza!")
+
+animals = ['sheep','goat', 'turkey']
+for animal in animals:
+    print(f"A {animal} is a good farm animal.")
+print(f"All of these animals are farm animals.ashdsjdj")
+"""
