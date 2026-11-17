@@ -98,7 +98,33 @@ print120 = [value for value in range(1,21,2)]
 print(min(print120))
 print(max(print120))
 print(print120)
+"""
+
 
 cubed =[value**3 for value in range(1,11)]
 print(cubed)
-"""
+
+# Working with slicing
+print(f"The first three items in this list are: \n")
+for num in cubed[:3]:
+    print(num)
+
+cubed =[value**3 for value in range(1,11)]
+print(cubed)
+
+print(f"The middle three items in this list are: \n")
+for num in cubed[3:7]:
+    print(num)
+
+    fav_pizzas = ['pepperoni', 'pepperoni and honey', 'meat lovers']
+
+for pizza in fav_pizzas:
+    print(f"I like {pizza} pizza.")
+print("Man I REALLY love pizza!")
+
+friend_pizza = fav_pizzas[:]
+fav_pizzas.append('turkey pizza')
+friend_pizza.append('goat pizza')
+
+print(fav_pizzas)
+print(friend_pizza)
