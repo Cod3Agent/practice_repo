@@ -100,7 +100,7 @@ print(max(print120))
 print(print120)
 """
 
-
+"""
 cubed =[value**3 for value in range(1,11)]
 print(cubed)
 
@@ -128,3 +128,63 @@ friend_pizza.append('goat pizza')
 
 print(fav_pizzas)
 print(friend_pizza)
+
+tuplefood = ('ham', 'mac', 'chicken', 'steak', 'rib')
+for food in tuplefood:
+    print(food)
+# example of what will throw an error for tuples
+# tuplefood[0] = 'crab' will have a TypeError
+
+
+
+
+
+
+alien_color = 'green'
+
+if alien_color == 'green':
+    print('You just earned five points!')
+if alien_color != 'green':
+    print("Congratulations, you just earned 10 points!")
+
+alien_color = 'red'
+
+if alien_color == 'green':
+    print('You just earned five points!')
+elif alien_color == 'yellow':
+    print("Congratulations, you have just earned 10 points!")
+elif alien_color == 'red':
+    print("Congratulations, you have just earned 15 points!")
+"""
+
+age = 50
+
+if age < 2:
+    print("You are a baby!")
+elif 2 <= age <= 4:
+    print("You are a toddler!")
+elif 4 <= age <= 13:
+    print("You are a kid!")
+elif 13 <= age <= 20:
+    print("You are a teenager!")
+elif 20 <= age <= 65:
+    print("You are an adult!")
+else:
+    print("You are an elder!")
+
+
+
+
+
+fav_fruit = ['golden kiwi', 'watermelon', 'banana']
+
+if 'golden kiwi' in fav_fruit:
+    print("You really like golden kiwi's!")
+if 'pear' in fav_fruit:
+    print("You really like pears!")
+if 'watermelon' in fav_fruit:
+    print("You really like watermelons!")
+if 'Apple' in fav_fruit:
+    print("You really like apples!")
+if 'banana' in fav_fruit:
+    print("You really like bananas!")
