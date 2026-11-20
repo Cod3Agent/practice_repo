@@ -155,7 +155,6 @@ elif alien_color == 'yellow':
     print("Congratulations, you have just earned 10 points!")
 elif alien_color == 'red':
     print("Congratulations, you have just earned 15 points!")
-"""
 
 age = 50
 
@@ -188,3 +187,58 @@ if 'Apple' in fav_fruit:
     print("You really like apples!")
 if 'banana' in fav_fruit:
     print("You really like bananas!")
+"""
+"""
+hello_admin = ['xmoore','smnoore','jbryant','wmoore','admin']
+# this will priint out the last else block | hello_admin = []
+if hello_admin:
+    for user in hello_admin:
+        if user == 'admin':
+            print('Hello admin, would you like to see a status report?')
+        else:
+            print(f'Hello {user}, thank you for logging in again.')
+else:
+    print('We need to find some users!')
+"""
+
+
+
+current_users = ['xmoore','smoore','jbryant','wmoore','admin']
+new_users = ['xavier','SMOORE','jbryant','wmoore','george']
+
+if new_users:
+    for new_user in new_users:
+        if new_user.lower() in current_users:
+            print('You will need to enter a new username. This one has already been used.')
+        else:
+            print("You have created your username.")
+else:
+    print('There are no new users.')
+
+
+
+
+num_list = [1,2,3,4,5,6,7,8,9]
+if num_list:
+    for num in num_list:
+        if num == 1:
+            print('1st')
+        elif num == 2:
+            print('2nd')
+        elif num == 3:
+            print('3rd')
+        elif num == 4:
+            print('4th')
+        elif num == 5:
+            print('5th')
+        elif num == 6:
+            print('6th')
+        elif num == 7:
+            print('7th')
+        elif num == 8:
+            print('8th')
+        elif num == 9:
+            print('9th')
+else:
+    print('This list is empty.')
+        
