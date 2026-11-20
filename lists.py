@@ -199,7 +199,7 @@ if hello_admin:
             print(f'Hello {user}, thank you for logging in again.')
 else:
     print('We need to find some users!')
-"""
+
 
 
 
@@ -241,4 +241,19 @@ if num_list:
             print('9th')
 else:
     print('This list is empty.')
-        
+"""
+
+
+
+
+dict_person = {'first_name':'Skylar', 'last_name':'Moore', 'Age':'25', 'City':'Beattyville'}
+for key, value in dict_person.items():
+    print(key, value)
+
+three_river = {'nile':'egypt', 'red':'united states', 'mississippi':'united states'}
+for river, country in three_river.items():
+    print(f"The {river} river runs through the country {country}.")
+for river in three_river.keys():
+    print(river)
+for country in three_river.values():
+    print(country.title())
