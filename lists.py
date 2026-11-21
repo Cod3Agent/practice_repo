@@ -241,7 +241,7 @@ if num_list:
             print('9th')
 else:
     print('This list is empty.')
-"""
+
 
 
 
@@ -257,3 +257,20 @@ for river in three_river.keys():
     print(river)
 for country in three_river.values():
     print(country.title())
+"""
+
+
+favorite_languages = {
+    'skylar' : 'english',
+    'wendi' : 'spanish',
+    'jason' : 'french',
+    'xavier' : 'korean',
+    'joe' : 'mandarin',
+}
+
+should_take = ['skylar', 'wendi', 'fern', 'jim']
+for name in favorite_languages.keys():
+    if name in should_take:
+        print(f"Thank you {name} for taking the poll.")
+    else:
+        print(f"{name}, please take our poll!")
