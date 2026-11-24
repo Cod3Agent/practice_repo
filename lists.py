@@ -1,5 +1,7 @@
     # This is a file to help me better myself on everything python related
     # To uncomment different lines, highlight them and use cmd + / on mac and ctrl + / on windows
+    # I am building everything you see from scratch without looking up answers, but I am following Python Crash Course 3rd edition
+#_____________________________________________________________________________________________________________
 # list1 = ["Dad", "Alex Hormozi", "Mark Zuckerberg"]
 
 # print("I have found a bigger dinner table everyone!!")
@@ -271,3 +273,60 @@
 #         print(f"Thank you {name} for taking the poll.")
 #     else:
 #         print(f"{name}, please take our poll!")
+
+
+    # Making a dictionary inside a list and looping through to output a person name and then their information
+# people = [
+# {'first_name':'Skylar', 'last_name':'Moore', 'Age':'25', 'City':'Beattyville',},
+# {'first_name':'Wendi', 'last_name':'Moore', 'Age':'55', 'City':'Beattyville',},
+# {'first_name':'Xavier', 'last_name':'Moore', 'Age':'20', 'City':'Beattyville',},
+# ]
+# for person in people:
+#     print(f"Person's name: {person['first_name']}")
+#     print(f"This is everything else about this person:\n \tlast name: {person['last_name']} \n \tage: {person['Age']} \n \tcity: {person['City']}")
+
+
+    # making several dictionaries about pets
+# pets = [
+#     {'animal':'dog', 'owner name':'john'},
+#     {'animal':'cat', 'owner name':'jill'},
+#     {'animal':'goat', 'owner name':'peter'},
+# ]
+# for animal in pets:
+#     print(f"Animals type: {animal['animal']}")
+#     print(f"This is the animals owner:\n \t {animal['owner name']}")
+
+#     # making a dictionary with a list insdie and looping through it
+# fav_places = {
+#     'jack': ['japan', 'pikeville', 'beattyville'],
+#     'wendi':['hawaii', 'ohio', 'home'],
+#     'xavier':['hawaii', 'japan', 'ireland'],
+# }
+# for person, places in fav_places.items():
+#     print(f"This is {person}, their favorite places are:")
+#     for place in places:
+#         print(f"{place}")
+
+    # making a dictionary that stores peoples favorite numbers using a list
+# fav_num = {
+#     'skylar':[1, 2, 3],
+#     'wendi':[4, 8, 24],
+#     'xavier':[7,32,62],
+# }
+# for name, numbers in fav_num.items():
+#     print(f"{name}'s favorite numbers are:")
+#     for number in numbers:
+#         print(number)
+
+    # making a dictionary of cities that nests another dictionary in the values for facts about that city
+# cities = {
+#     'Beattyville':{'country':'united states', 'population': 5000, 'fun_fact': 'two stop lights exist in this town'},
+#     'Owsley':{'country':'united states', 'population': 3000, 'fun_fact': 'One of Americas poorest towns'},
+#     'Richmond':{'country':'united states', 'population': 30000, 'fun_fact': 'I work in this town'},
+#     }
+# for city, information in cities.items():
+#     print(f"\nThis cities name is {city}. Here is some information about it:")
+#     population = information['population']
+#     country = information['country']
+#     fun_fact = information['fun_fact']
+#     print(f"The population is {population}.\n The country is in is {country}. \n A fun fact about it is {fun_fact}.")
